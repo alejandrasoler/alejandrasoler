@@ -2,3 +2,22 @@ h1{
     font-family: 'Fredoka One', cursive;size: 4;
 }
 
+P{
+    font-family: 'Roboto', sans-serif;
+}
+
+td{
+    font-family: 'Roboto', sans-serif; 
+}
+
+th{
+    font-family: 'Roboto', sans-serif;  
+}
+
+dd{
+    font-family: 'Roboto', sans-serif;
+}
+
+dt{
+    font-family: 'Roboto', sans-serif;
+}
