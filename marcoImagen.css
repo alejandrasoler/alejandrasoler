@@ -1,0 +1,13 @@
+
+img {
+    border: solid blue; 
+}
+
+img:hover {
+    border: solid red; 
+}
+
+.oscuro{ 
+    background-color: darkblue; 
+    color: white; 
+}

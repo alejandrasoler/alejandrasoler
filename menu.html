@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Pagina Menu </title>
+        <meta name=author content="Alejandra Soler">
+        <meta name="descripcion" content="Es la pagina del menu">
+    <head>
+
+    <body>
+        <style>
+            .btnMenuPrincipal {
+                background-color: skyblue;
+                color: white;
+                border: none;
+                cursor: pointer;
+                padding:20px;
+                margin-top:20px;
+            }
+            .btnMenuPrincipal:hover {
+                background-color: blue;
+            }
+            .desplega {
+                position: relative;
+                display: inline-block;
+            }
+            .desplega-child {
+                display: none;
+                background-color: skyblue;
+                min-width: 200px;
+            }
+            .desplega-child a {
+                color: blue;
+                padding: 20px;
+                text-decoration: none;
+                display: block;
+            }
+            .desplega:hover .desplega-child {
+                display: block;
+            }
+        </style>
+
+        <div class="desplega">
+            <button class="btnMenuPrincipal">Menú Principal</button>
+            <div class="desplega-child">
+                <a href="Inicio.html" target="frmCuerpo">Portada</a>
+                <a href="datosBiblio.html" target="frmCuerpo">Datos biográficos</a>
+                <a href="experiencia.html" target="frmCuerpo">Experiencia</a>
+                <a href="lineaTiempo.html" target="frmCuerpo">Línea de tiempo</a>
+                <a href="materialInteres.html" target="frmCuerpo">Material de interes</a>
+                <a href="Formulario.html" target="frmCuerpo">Foro de Mensajes</a>
+            </div>
+        </div>
+    </body>
+</html>

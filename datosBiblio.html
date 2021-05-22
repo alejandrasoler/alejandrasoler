@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Pagina Datos Bibliograficos</title>
+        <link rel="stylesheet" href="marcoImagen.css">
+        <meta name=author content="Alejandra Soler">
+        <meta name="descripcion" content="En esta pagina se describe los datos bibliograficos">
+    </head>
+
+    <body>
+      
+        <h1>Estos son mi principales datos blibliográficos</h1>
+            
+        <table BORDER>
+
+            <thead>
+                <tr>
+                    <th>Acontecimiento</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Nacimiento</td>
+                    <td>En un día muy soleado</td>
+                </tr>
+                <tr>
+                    <td>Niñez</td>
+                    <td>Crecí muy felíz en el seno de mi hogar</td>
+                </tr>
+                <tr>
+                    <td>Amigos</td>
+                    <td>Muchos amigos imaginarios</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <button type="button" class="btn btn-dark" onclick="cambiarModo()">Oscuro / Claro</button>
+
+        <script type="text/javascript"> 
+            function cambiarModo() { 
+              var cuerpoweb = document.body; 
+              cuerpoweb.classList.toggle("oscuro"); 
+            } 
+        </script>
+    </body>
+
+</html>
